@@ -1,0 +1,42 @@
+a {
+    font-size: 100px;
+    margin: 20px;
+}
+
+body {
+    background-color: palevioletred;
+}
+
+.container {
+    background: linear-gradient(45deg, green, red, yellow);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 140px;
+    border-radius: 30px;
+    box-shadow: 5px 7px 10px black;
+}
+
+a:hover {
+    color: blue;
+    font-size: 105px;
+    text-shadow: 5px 5px 5px red;
+    rotate: 30deg;
+}
+
+.google:hover {
+    text-shadow: 5px 5px 5px yellow;
+}
+
+.facebook:hover {
+    text-shadow: 5px 5px 5px rgb(9, 206, 9);
+}
+
+a:visited {
+    color: blue;
+}
+
+div {
+    float: left;
+}
